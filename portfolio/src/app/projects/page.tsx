@@ -7,60 +7,60 @@ export default function Projects() {
   const projects = [
     {
       id: 1,
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce solution with payment integration, user authentication, and admin dashboard. Features include product management, order processing, and real-time inventory tracking.",
+      title: "CI/CD Pipeline Automation",
+      description: "Designed and implemented a comprehensive CI/CD pipeline that reduced deployment time by 80% and improved system reliability. Integrated automated testing, security scanning, and deployment to multiple environments.",
       image: "/api/placeholder/400/250",
-      technologies: ["Next.js", "TypeScript", "Stripe", "PostgreSQL", "Tailwind CSS"],
+      technologies: ["Jenkins", "Docker", "AWS", "Terraform", "Kubernetes"],
       liveUrl: "#",
       githubUrl: "#",
       featured: true
     },
     {
       id: 2,
-      title: "Task Management App",
-      description: "A collaborative task management application with real-time updates, team collaboration features, and progress tracking. Built with modern web technologies for optimal performance.",
+      title: "Financial Dashboard & Analytics",
+      description: "Built a real-time financial reporting system with automated data processing and visualization. Provided insights that led to 25% cost reduction in operational expenses.",
       image: "/api/placeholder/400/250",
-      technologies: ["React", "Node.js", "Socket.io", "MongoDB", "Express"],
+      technologies: ["Power BI", "Python", "SQL", "Excel", "Tableau"],
       liveUrl: "#",
       githubUrl: "#",
       featured: true
     },
     {
       id: 3,
-      title: "Portfolio Website",
-      description: "A modern, responsive portfolio website built with Next.js and shadcn/ui. Features dark mode, smooth animations, and optimized for performance and SEO.",
+      title: "Agile Project Management Implementation",
+      description: "Implemented agile methodologies across multiple teams, improving productivity by 40%. Established best practices for sprint planning, retrospectives, and continuous improvement.",
       image: "/api/placeholder/400/250",
-      technologies: ["Next.js", "shadcn/ui", "Tailwind CSS", "TypeScript"],
+      technologies: ["Jira", "Confluence", "Scrum", "Kanban", "Agile"],
       liveUrl: "#",
       githubUrl: "#",
       featured: true
     },
     {
       id: 4,
-      title: "Weather Dashboard",
-      description: "A weather application that displays current weather conditions and forecasts. Features location-based weather data and interactive charts.",
+      title: "Cloud Infrastructure Migration",
+      description: "Led the migration of on-premise infrastructure to AWS cloud, reducing costs by 30% and improving scalability. Implemented infrastructure as code using Terraform.",
       image: "/api/placeholder/400/250",
-      technologies: ["React", "OpenWeather API", "Chart.js", "CSS3"],
+      technologies: ["AWS", "Terraform", "Docker", "Ansible", "Linux"],
       liveUrl: "#",
       githubUrl: "#",
       featured: false
     },
     {
       id: 5,
-      title: "Blog Platform",
-      description: "A content management system for blogs with markdown support, user authentication, and SEO optimization. Includes admin panel for content management.",
+      title: "Budget Planning & Cost Analysis",
+      description: "Developed comprehensive budget planning models and cost analysis frameworks. Created automated reporting systems for financial tracking and forecasting.",
       image: "/api/placeholder/400/250",
-      technologies: ["Next.js", "Markdown", "PostgreSQL", "Prisma", "NextAuth"],
+      technologies: ["Excel", "Power BI", "Financial Modeling", "Budget Planning", "ROI Analysis"],
       liveUrl: "#",
       githubUrl: "#",
       featured: false
     },
     {
       id: 6,
-      title: "Social Media Dashboard",
-      description: "A dashboard for managing multiple social media accounts. Features analytics, scheduling, and content management across platforms.",
+      title: "Process Automation & Optimization",
+      description: "Identified and automated manual processes, reducing processing time by 60% and eliminating human errors. Implemented monitoring and alerting systems.",
       image: "/api/placeholder/400/250",
-      technologies: ["React", "Node.js", "Social APIs", "Chart.js", "Material-UI"],
+      technologies: ["Python", "Shell Scripting", "Jenkins", "Monitoring", "Automation"],
       liveUrl: "#",
       githubUrl: "#",
       featured: false
@@ -74,7 +74,7 @@ export default function Projects() {
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">My Projects</h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            A collection of projects that showcase my skills and passion for creating meaningful digital experiences
+            A collection of projects that showcase my expertise in DevOps automation, project management, and financial optimization
           </p>
         </div>
 
@@ -101,7 +101,7 @@ export default function Projects() {
                   </div>
                   <div className="flex gap-2">
                     <Button size="sm" asChild>
-                      <Link href={project.liveUrl}>Live Demo</Link>
+                      <Link href={project.liveUrl}>View Details</Link>
                     </Button>
                     <Button size="sm" variant="outline" asChild>
                       <Link href={project.githubUrl}>GitHub</Link>
@@ -136,7 +136,7 @@ export default function Projects() {
                   </div>
                   <div className="flex gap-2">
                     <Button size="sm" asChild>
-                      <Link href={project.liveUrl}>Live Demo</Link>
+                      <Link href={project.liveUrl}>View Details</Link>
                     </Button>
                     <Button size="sm" variant="outline" asChild>
                       <Link href={project.githubUrl}>GitHub</Link>
@@ -152,7 +152,7 @@ export default function Projects() {
         <section className="text-center mt-16">
           <h2 className="text-3xl font-bold mb-4">Have a Project in Mind?</h2>
           <p className="text-lg text-muted-foreground mb-8">
-            I'm always interested in new opportunities and exciting projects.
+            I'm always interested in new opportunities to optimize processes and drive business value.
           </p>
           <Button size="lg" asChild>
             <Link href="/contact">Let's Discuss Your Project</Link>

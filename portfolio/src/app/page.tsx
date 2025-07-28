@@ -13,11 +13,11 @@ export default function Home() {
             Hi, I'm <span className="text-primary">Your Name</span>
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8">
-            Full Stack Developer | UI/UX Designer | Creative Problem Solver
+            DevOps Engineer | Project Manager | Financial Analyst
           </p>
           <p className="text-lg text-muted-foreground mb-10 max-w-2xl mx-auto">
-            I build beautiful, functional, and user-centered digital experiences. 
-            Passionate about creating innovative solutions that make a difference.
+            I bridge the gap between technology, project delivery, and financial optimization. 
+            Passionate about streamlining processes and driving business value through automation and strategic planning.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" asChild>
@@ -37,12 +37,12 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div>
               <p className="text-lg text-muted-foreground mb-6">
-                I'm a passionate developer with expertise in modern web technologies. 
-                I love turning complex problems into simple, beautiful, and intuitive solutions.
+                I'm a versatile professional with expertise in DevOps automation, project management, and financial analysis. 
+                I help organizations optimize their operations through technology and strategic planning.
               </p>
               <p className="text-lg text-muted-foreground mb-6">
-                When I'm not coding, you can find me exploring new technologies, 
-                contributing to open-source projects, or sharing knowledge with the community.
+                With experience in cloud infrastructure, CI/CD pipelines, agile methodologies, and financial modeling, 
+                I bring a unique perspective that combines technical excellence with business acumen.
               </p>
               <Button asChild>
                 <Link href="/about">Learn More About Me</Link>
@@ -50,12 +50,14 @@ export default function Home() {
             </div>
             <div className="space-y-4">
               <div className="flex flex-wrap gap-2">
-                <Badge variant="secondary">React</Badge>
-                <Badge variant="secondary">Next.js</Badge>
-                <Badge variant="secondary">TypeScript</Badge>
-                <Badge variant="secondary">Node.js</Badge>
-                <Badge variant="secondary">Python</Badge>
-                <Badge variant="secondary">PostgreSQL</Badge>
+                <Badge variant="secondary">AWS</Badge>
+                <Badge variant="secondary">Docker</Badge>
+                <Badge variant="secondary">Kubernetes</Badge>
+                <Badge variant="secondary">Jenkins</Badge>
+                <Badge variant="secondary">Agile</Badge>
+                <Badge variant="secondary">Jira</Badge>
+                <Badge variant="secondary">Excel</Badge>
+                <Badge variant="secondary">Power BI</Badge>
               </div>
             </div>
           </div>
@@ -70,16 +72,17 @@ export default function Home() {
             {/* Project 1 */}
             <Card className="hover:shadow-lg transition-shadow">
               <CardHeader>
-                <CardTitle>E-Commerce Platform</CardTitle>
+                <CardTitle>CI/CD Pipeline Automation</CardTitle>
                 <CardDescription>
-                  A full-stack e-commerce solution with payment integration
+                  Automated deployment pipeline reducing deployment time by 80%
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <Badge variant="outline">Next.js</Badge>
-                  <Badge variant="outline">Stripe</Badge>
-                  <Badge variant="outline">PostgreSQL</Badge>
+                  <Badge variant="outline">Jenkins</Badge>
+                  <Badge variant="outline">Docker</Badge>
+                  <Badge variant="outline">AWS</Badge>
+                  <Badge variant="outline">Terraform</Badge>
                 </div>
                 <Button variant="outline" size="sm" asChild>
                   <Link href="/projects">View Project</Link>
@@ -90,16 +93,17 @@ export default function Home() {
             {/* Project 2 */}
             <Card className="hover:shadow-lg transition-shadow">
               <CardHeader>
-                <CardTitle>Task Management App</CardTitle>
+                <CardTitle>Financial Dashboard</CardTitle>
                 <CardDescription>
-                  A collaborative task management application with real-time updates
+                  Real-time financial reporting system with automated data processing
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <Badge variant="outline">React</Badge>
-                  <Badge variant="outline">Socket.io</Badge>
-                  <Badge variant="outline">MongoDB</Badge>
+                  <Badge variant="outline">Power BI</Badge>
+                  <Badge variant="outline">Python</Badge>
+                  <Badge variant="outline">SQL</Badge>
+                  <Badge variant="outline">Excel</Badge>
                 </div>
                 <Button variant="outline" size="sm" asChild>
                   <Link href="/projects">View Project</Link>
@@ -110,16 +114,17 @@ export default function Home() {
             {/* Project 3 */}
             <Card className="hover:shadow-lg transition-shadow">
               <CardHeader>
-                <CardTitle>Portfolio Website</CardTitle>
+                <CardTitle>Agile Project Management</CardTitle>
                 <CardDescription>
-                  A modern, responsive portfolio built with Next.js and shadcn/ui
+                  Implemented agile methodologies improving team productivity by 40%
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <Badge variant="outline">Next.js</Badge>
-                  <Badge variant="outline">shadcn/ui</Badge>
-                  <Badge variant="outline">Tailwind CSS</Badge>
+                  <Badge variant="outline">Jira</Badge>
+                  <Badge variant="outline">Confluence</Badge>
+                  <Badge variant="outline">Scrum</Badge>
+                  <Badge variant="outline">Kanban</Badge>
                 </div>
                 <Button variant="outline" size="sm" asChild>
                   <Link href="/projects">View Project</Link>
@@ -140,7 +145,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-4">Let's Work Together</h2>
           <p className="text-xl mb-8 opacity-90">
-            I'm always interested in new opportunities and exciting projects.
+            I'm always interested in new opportunities to optimize processes and drive business value.
           </p>
           <Button size="lg" variant="secondary" asChild>
             <Link href="/contact">Get In Touch</Link>

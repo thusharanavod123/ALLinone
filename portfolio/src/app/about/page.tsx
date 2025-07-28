@@ -11,7 +11,7 @@ export default function About() {
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">About Me</h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Passionate developer with a love for creating meaningful digital experiences
+            DevOps Engineer, Project Manager, and Financial Analyst with a passion for process optimization
           </p>
         </div>
 
@@ -20,16 +20,18 @@ export default function About() {
           <h2 className="text-3xl font-bold mb-8">My Story</h2>
           <div className="space-y-6 text-lg text-muted-foreground">
             <p>
-              I started my journey in web development with a curiosity about how things work on the internet. 
-              What began as a hobby quickly turned into a passion, and now I'm fortunate enough to do what I love for a living.
+              I started my career with a fascination for how technology can streamline business operations. 
+              What began as a focus on automation quickly evolved into a comprehensive understanding of DevOps, 
+              project management, and financial analysis.
             </p>
             <p>
-              I believe in writing clean, maintainable code and creating user experiences that are both beautiful and functional. 
-              Every project is an opportunity to learn something new and push the boundaries of what's possible.
+              I believe in creating efficient, scalable solutions that not only solve technical challenges 
+              but also drive measurable business value. Every project is an opportunity to optimize processes 
+              and improve organizational performance.
             </p>
             <p>
-              When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, 
-              or sharing knowledge with the developer community. I'm always excited to take on new challenges and collaborate with amazing people.
+              When I'm not optimizing systems or managing projects, you can find me exploring new automation tools, 
+              contributing to process improvement initiatives, or analyzing financial data to identify optimization opportunities.
             </p>
           </div>
         </section>
@@ -38,59 +40,68 @@ export default function About() {
         <section className="mb-16">
           <h2 className="text-3xl font-bold mb-8">Skills & Technologies</h2>
           <div className="grid md:grid-cols-2 gap-8">
-            {/* Frontend */}
+            {/* DevOps */}
             <Card>
               <CardHeader>
-                <CardTitle>Frontend Development</CardTitle>
-                <CardDescription>Modern web technologies and frameworks</CardDescription>
+                <CardTitle>DevOps & Infrastructure</CardTitle>
+                <CardDescription>Cloud platforms, automation, and infrastructure management</CardDescription>
               </CardHeader>
               <CardContent>
                 <div className="flex flex-wrap gap-2">
-                  <Badge variant="secondary">React</Badge>
-                  <Badge variant="secondary">Next.js</Badge>
-                  <Badge variant="secondary">TypeScript</Badge>
-                  <Badge variant="secondary">JavaScript</Badge>
-                  <Badge variant="secondary">HTML5</Badge>
-                  <Badge variant="secondary">CSS3</Badge>
-                  <Badge variant="secondary">Tailwind CSS</Badge>
-                  <Badge variant="secondary">shadcn/ui</Badge>
-                </div>
-              </CardContent>
-            </Card>
-
-            {/* Backend */}
-            <Card>
-              <CardHeader>
-                <CardTitle>Backend Development</CardTitle>
-                <CardDescription>Server-side technologies and databases</CardDescription>
-              </CardHeader>
-              <CardContent>
-                <div className="flex flex-wrap gap-2">
-                  <Badge variant="secondary">Node.js</Badge>
-                  <Badge variant="secondary">Python</Badge>
-                  <Badge variant="secondary">Express.js</Badge>
-                  <Badge variant="secondary">PostgreSQL</Badge>
-                  <Badge variant="secondary">MongoDB</Badge>
-                  <Badge variant="secondary">REST APIs</Badge>
-                  <Badge variant="secondary">GraphQL</Badge>
-                </div>
-              </CardContent>
-            </Card>
-
-            {/* Tools */}
-            <Card>
-              <CardHeader>
-                <CardTitle>Tools & Platforms</CardTitle>
-                <CardDescription>Development tools and deployment platforms</CardDescription>
-              </CardHeader>
-              <CardContent>
-                <div className="flex flex-wrap gap-2">
-                  <Badge variant="secondary">Git</Badge>
-                  <Badge variant="secondary">GitHub</Badge>
-                  <Badge variant="secondary">Vercel</Badge>
+                  <Badge variant="secondary">AWS</Badge>
+                  <Badge variant="secondary">Azure</Badge>
                   <Badge variant="secondary">Docker</Badge>
-                  <Badge variant="secondary">VS Code</Badge>
-                  <Badge variant="secondary">Figma</Badge>
+                  <Badge variant="secondary">Kubernetes</Badge>
+                  <Badge variant="secondary">Jenkins</Badge>
+                  <Badge variant="secondary">GitLab CI/CD</Badge>
+                  <Badge variant="secondary">Terraform</Badge>
+                  <Badge variant="secondary">Ansible</Badge>
+                  <Badge variant="secondary">Linux</Badge>
+                  <Badge variant="secondary">Shell Scripting</Badge>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Project Management */}
+            <Card>
+              <CardHeader>
+                <CardTitle>Project Management</CardTitle>
+                <CardDescription>Agile methodologies and project management tools</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <div className="flex flex-wrap gap-2">
+                  <Badge variant="secondary">Agile</Badge>
+                  <Badge variant="secondary">Scrum</Badge>
+                  <Badge variant="secondary">Kanban</Badge>
+                  <Badge variant="secondary">Jira</Badge>
+                  <Badge variant="secondary">Confluence</Badge>
+                  <Badge variant="secondary">Trello</Badge>
+                  <Badge variant="secondary">Asana</Badge>
+                  <Badge variant="secondary">MS Project</Badge>
+                  <Badge variant="secondary">Risk Management</Badge>
+                  <Badge variant="secondary">Stakeholder Management</Badge>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Finance */}
+            <Card>
+              <CardHeader>
+                <CardTitle>Financial Analysis</CardTitle>
+                <CardDescription>Financial modeling, reporting, and analysis tools</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <div className="flex flex-wrap gap-2">
+                  <Badge variant="secondary">Excel</Badge>
+                  <Badge variant="secondary">Power BI</Badge>
+                  <Badge variant="secondary">Tableau</Badge>
+                  <Badge variant="secondary">SQL</Badge>
+                  <Badge variant="secondary">Python</Badge>
+                  <Badge variant="secondary">Financial Modeling</Badge>
+                  <Badge variant="secondary">Budget Planning</Badge>
+                  <Badge variant="secondary">Cost Analysis</Badge>
+                  <Badge variant="secondary">ROI Analysis</Badge>
+                  <Badge variant="secondary">QuickBooks</Badge>
                 </div>
               </CardContent>
             </Card>
@@ -103,12 +114,12 @@ export default function About() {
               </CardHeader>
               <CardContent>
                 <div className="flex flex-wrap gap-2">
-                  <Badge variant="secondary">UI/UX Design</Badge>
-                  <Badge variant="secondary">Responsive Design</Badge>
-                  <Badge variant="secondary">Performance Optimization</Badge>
-                  <Badge variant="secondary">SEO</Badge>
-                  <Badge variant="secondary">Testing</Badge>
-                  <Badge variant="secondary">Agile/Scrum</Badge>
+                  <Badge variant="secondary">Process Optimization</Badge>
+                  <Badge variant="secondary">Automation</Badge>
+                  <Badge variant="secondary">Data Analysis</Badge>
+                  <Badge variant="secondary">Business Intelligence</Badge>
+                  <Badge variant="secondary">Change Management</Badge>
+                  <Badge variant="secondary">Team Leadership</Badge>
                 </div>
               </CardContent>
             </Card>
@@ -121,39 +132,39 @@ export default function About() {
           <div className="space-y-6">
             <Card>
               <CardHeader>
-                <CardTitle>Senior Full Stack Developer</CardTitle>
+                <CardTitle>Senior DevOps Engineer</CardTitle>
                 <CardDescription>Tech Company • 2022 - Present</CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  Leading development of web applications using React, Next.js, and Node.js. 
-                  Collaborating with cross-functional teams to deliver high-quality products.
+                  Leading DevOps initiatives including CI/CD pipeline automation, infrastructure as code, 
+                  and cloud migration projects. Reduced deployment time by 80% and improved system reliability.
                 </p>
               </CardContent>
             </Card>
 
             <Card>
               <CardHeader>
-                <CardTitle>Frontend Developer</CardTitle>
-                <CardDescription>Digital Agency • 2020 - 2022</CardDescription>
+                <CardTitle>Project Manager</CardTitle>
+                <CardDescription>Consulting Firm • 2020 - 2022</CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  Built responsive websites and web applications for various clients. 
-                  Worked with modern frameworks and ensured optimal user experience.
+                  Managed multiple technology projects using Agile methodologies. Improved team productivity by 40% 
+                  and delivered projects 15% under budget while maintaining quality standards.
                 </p>
               </CardContent>
             </Card>
 
             <Card>
               <CardHeader>
-                <CardTitle>Junior Developer</CardTitle>
-                <CardDescription>Startup • 2019 - 2020</CardDescription>
+                <CardTitle>Financial Analyst</CardTitle>
+                <CardDescription>Financial Services • 2018 - 2020</CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  Started my professional journey working on small projects and learning 
-                  from experienced developers. Gained foundational knowledge in web development.
+                  Conducted financial analysis, created automated reporting dashboards, and provided insights 
+                  that led to 25% cost reduction in operational expenses.
                 </p>
               </CardContent>
             </Card>
@@ -164,7 +175,7 @@ export default function About() {
         <section className="text-center">
           <h2 className="text-3xl font-bold mb-4">Interested in Working Together?</h2>
           <p className="text-lg text-muted-foreground mb-8">
-            I'm always open to discussing new opportunities and exciting projects.
+            I'm always open to discussing new opportunities to optimize processes and drive business value.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" asChild>
